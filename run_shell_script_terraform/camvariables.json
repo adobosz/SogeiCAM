@@ -78,7 +78,7 @@
       "options": [
         {
           "value": "true",
-          "label": "true"
+          "label": "true",
           "default": true
         },
         {
