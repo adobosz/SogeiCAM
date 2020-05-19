@@ -30,7 +30,7 @@
     },
     {
       "name": "vm_domain_name",
-      "default": "prova",
+      "default": "",
       "description": "Virtual machine domain name.",
       "type": "string",
       "required": true,
@@ -79,7 +79,7 @@
         {
           "value": "true",
           "label": "true",
-          "default": true
+          "default": false
         },
         {
           "value": "false",
@@ -92,7 +92,7 @@
     {
       "name": "compute_node_hostname",
       "description": "Compute Node Hostname",
-      "default": "compute-hostname",
+      "default": "172.30.255.33",
       "type": "string",
       "required": true,
       "secured": false,
@@ -105,7 +105,7 @@
     {
       "name": "infra_node_hostname",
       "description": "Infra Node Hostname",
-      "default": "infra-hostname",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
@@ -118,7 +118,7 @@
     {
       "name": "infra_node_ip",
       "description": "Infra Node IP",
-      "default": "0.0.0.0",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
@@ -131,7 +131,7 @@
     {
       "name": "master_node_hostname",
       "description": "Master Node Hostname",
-      "default": "master-hostname",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
@@ -143,8 +143,8 @@
     },
     {
       "name": "master_node_ip",
-      "description": "Infra Node IP",
-      "default": "0.0.0.0",
+      "description": "Master Node IP",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
@@ -157,7 +157,7 @@
     {
       "name": "lb_node_hostname",
       "description": "LB Node Hostname",
-      "default": "lb-hostname",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
@@ -170,7 +170,7 @@
     {
       "name": "etcd_node_hostname",
       "description": "etcd Node Hostname",
-      "default": "etcd-hostname",
+      "default": "172.30.255.24",
       "type": "string",
       "required": true,
       "secured": false,
