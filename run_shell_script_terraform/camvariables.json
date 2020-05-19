@@ -44,7 +44,7 @@
     {
       "name": "vm_os_user",
       "description": "The user name to connect to the virtual machine.",
-      "default": "sss",
+      "default": "root",
       "type": "string",
       "required": true,
       "secured": false,
@@ -57,7 +57,7 @@
     {
       "name": "vm_os_password",
       "description": "The user password to connect to the virtual machine.",
-      "default": "aaa",
+      "default": "adm.password",
       "type": "string",
       "required": false,
       "secured": true,
@@ -79,6 +79,7 @@
         {
           "value": "true",
           "label": "true"
+          "default": true
         },
         {
           "value": "false",
@@ -91,7 +92,7 @@
     {
       "name": "compute_node_hostname",
       "description": "Compute Node Hostname",
-      "default": "0.0.0.0",
+      "default": "compute-hostname",
       "type": "string",
       "required": true,
       "secured": false,
@@ -104,7 +105,7 @@
     {
       "name": "infra_node_hostname",
       "description": "Infra Node Hostname",
-      "default": "0.0.0.0",
+      "default": "infra-hostname",
       "type": "string",
       "required": true,
       "secured": false,
@@ -130,7 +131,7 @@
     {
       "name": "master_node_hostname",
       "description": "Master Node Hostname",
-      "default": "0.0.0.0",
+      "default": "master-hostname",
       "type": "string",
       "required": true,
       "secured": false,
@@ -156,7 +157,7 @@
     {
       "name": "lb_node_hostname",
       "description": "LB Node Hostname",
-      "default": "0.0.0.0",
+      "default": "lb-hostname",
       "type": "string",
       "required": true,
       "secured": false,
@@ -169,7 +170,7 @@
     {
       "name": "etcd_node_hostname",
       "description": "etcd Node Hostname",
-      "default": "0.0.0.0",
+      "default": "etcd-hostname",
       "type": "string",
       "required": true,
       "secured": false,
