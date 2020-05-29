@@ -1,0 +1,160 @@
+{
+  "terraform_engine": "~> 0.12.0",
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [  {
+    "name": "vra7_deployment_vra_catalog",
+    "label": "vra7_deployment Vra Catalog"
+  } ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "single_vmware_node_timeout",
+      "label": "Single VMware Node Timeout",
+      "description": "Time to wait (in minutes) for a vRA deployment to complete successfully",
+      "type": "string",
+      "default": "45",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+    "template_output_params": [ {
+      "name": "lb_master_1",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+
+   
+    {
+      "name": "lb_master_all",
+      "label": "All Node IP address",
+      "description": "IP address of deployed nodes",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "master_node_1",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "master_node_2",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "master_node_3",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "master_node_all",
+      "label": "All Node IP address",
+      "description": "IP address of deployed nodes",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "infra_node_1",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "infra_node_2",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "infra_node_all",
+      "label": "All Node IP address",
+      "description": "IP address of deployed nodes",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "worker_node_1",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "worker_node_2",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "worker_node_3",
+      "label": "Managed Node 2 IP address",
+      "description": "IP address of deployed node 1",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "worker_node_all",
+      "label": "All Node IP address",
+      "description": "IP address of deployed nodes",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    }
+  ]
+}
